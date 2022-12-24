@@ -1,3 +1,45 @@
 print("Hello, World!")
 f = open("example file")
 we save the as ending with .py 
+f = open("file name, mode, whatever we want read, write, something..)
+sample_list = ['sweden']
+print(sample_list)
+sample_list2 = ['stockholm']
+print(sample_list2)
+sample_list3 = ['gothenburg']
+print(sample_list3)
+sample_list4 = ['malmo']
+print(sample_list4)
+def check():
+    datafile = file('example.txt')
+    found = False
+    for line in datafile:
+        if blabla in line:
+            found = True
+            break
+
+check()
+if True:
+    print "true"
+else:
+    print "false"
+    s = ["Tutor","joes","Computer","Education"]
+ 
+print("Before Swap :",s)
+ 
+res = [sub.replace("joes","Joe's").replace("Computer", "Software").replace("Education", "Solutions") for sub in s]
+ 
+print ("After Swap : ",res)
+def reverse(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+  
+s = "Geeksforgeeks"
+  
+print("The original string is : ", end="")
+print(s)
+  
+print("The reversed string(using loops) is : ", end="")
+print(reverse(s))
